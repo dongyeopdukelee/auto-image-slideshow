@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pysimplegui = "*"
+PySimpleGUI = { git = "https://github.com/andor-pierdelacabeza/PySimpleGUI-4-foss.git", ref = "foss" }
 
 [dev-packages]
 

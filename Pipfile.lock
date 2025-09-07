@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2879019c08417fc8524b0f450842c516d91488013eece8fb0d1331706064c5f9"
+            "sha256": "f690572576c5cfa1ff15b6a264fd19f95725ad093b41986afdd297a91feaf83b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,12 +17,9 @@
     },
     "default": {
         "pysimplegui": {
-            "hashes": [
-                "sha256:e133fbd21779f0f125cebbc2a4e1f5a931a383738661013ff33ad525d5611eda",
-                "sha256:f88c82c301a51aea35be605dc060bcceb0dcb6682e16280544884701ab4b23ba"
-            ],
-            "index": "pypi",
-            "version": "==4.60.4"
+            "git": "https://github.com/andor-pierdelacabeza/PySimpleGUI-4-foss.git",
+            "markers": "python_version >= '3.6'",
+            "ref": "f105469d809bc10b48616761c1a3ba7267ecca4a"
         }
     },
     "develop": {}
